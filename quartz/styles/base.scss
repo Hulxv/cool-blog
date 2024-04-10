@@ -9,6 +9,10 @@ html {
   width: 100vw;
 }
 
+html[lang^="ar"] * {
+  direction: rtl;
+}
+
 body,
 section {
   margin: 0;
